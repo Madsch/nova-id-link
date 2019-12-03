@@ -1,7 +1,7 @@
 <template>
     <span v-if="field.value">
         <router-link :to="{
-            name: 'detail',
+            name: 'edit',
             params: {
                 resourceName: $parent.resourceName,
                 resourceId: field.value
